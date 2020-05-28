@@ -1,3 +1,0 @@
-string = input("enter the string")
-#removing duplicate characters
-print(set(string))
