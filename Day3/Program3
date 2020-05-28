@@ -1,4 +1,4 @@
-string = list(input("enter the string"))
+string = input("enter the string")
 #removing duplicate characters
-string = set(string)
-print(list(string))
+print(set(string))
+
