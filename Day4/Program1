@@ -1,0 +1,8 @@
+tuple1= tuple(input("enter the string for a tuple"))
+print(tuple1)
+c=0
+a = input("enter the element whose occurance is to be counted in the tuple")
+for i in tuple1:
+    if i==a:
+        c+=1
+print("the total occurances of the element",a,"are",c)
